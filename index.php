@@ -22,14 +22,12 @@
             <?php include $content_page; ?>
     </div>
     <div class="view">
+    </div>
    <h1>Comments:</h1>
 </div>
 <div class="back">
     <div>
-        <?php include $comments_page; ?>
-    </div>
-    <div>
-            <?php include $comment_page; ?>
+        <?php include $comment_page; ?>
     </div>
     </div>
  </body>

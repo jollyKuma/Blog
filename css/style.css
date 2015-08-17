@@ -11,7 +11,7 @@ body{
     padding: 30px;
     text-align: center;
     color:#EC407A;
-  font-family: 'Petit Formal Script', cursive;
+    font-family: 'Petit Formal Script', cursive;
 }
 #links > strong >span{
 font-size: 1.5em;
@@ -53,15 +53,15 @@ background:#F06292 ;color:#EC407A;
     height:10%;
     width: 500px;
 }
-.view{
+.view, #myDiv {
     margin-left: 30%;
     font-family: 'Pacifico',cursive;
     font-size: 1.0em;
     color: #E91E63;
 
 }
-.view > p{
-    margin-left: 20%;
+.view > p, #myDiv > p{
+    margin-left: 0;
     margin-right: 30%;
     font-family:'Pacifico', cursive;
      font-size: 1.5em;
@@ -69,12 +69,13 @@ background:#F06292 ;color:#EC407A;
      background-color: white;
 
 }
-.view > a{
+.view > a, #myDiv > a{
     margin-left: 10%;
     font-family:'Petit Formal Script', cursive;
     color: #E91E63;;
     font-size: 1.5em;
 }
+
 .pic{
     text-align: center;
     margin-left: 30px;
